@@ -1,0 +1,1 @@
+addSbtPlugin("jp.modal.soul" % "milvus" % "0.1-SNAPSHOT")
