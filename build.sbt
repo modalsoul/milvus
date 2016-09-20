@@ -14,7 +14,8 @@ val testDependencies = Seq(
 )
 
 libraryDependencies ++= Seq(
-  "com.twitter" %% "finagle-http" % "6.25.0"
+  "com.twitter" %% "finagle-http" % "6.25.0",
+  "com.typesafe" % "config" % "1.3.0"
 )++testDependencies
 
 initialCommands := "import jp.modal.soul.milvus._"

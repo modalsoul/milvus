@@ -33,6 +33,7 @@ trait MilvusHelloTask {
   lazy val helloTask = Def.task {
     val log = streams.value.log
     log.info("Hello")
+    MilvusConfiguration.exe
   }
 }
 
